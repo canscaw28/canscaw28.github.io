@@ -10,7 +10,7 @@ NC='\033[0m'
 
 # Uninstall Homebrew?
 read -e -p "${BLUE}==>${WHITE} Would you like to uninstall Homebrew? (y/n)\n${NC}" answer
-if [[ "$answer" == [Yy]* ]]
+if [[ "$answer" == [Yy]* ]]; then
   printf "  Uninstalling Homebrew."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
 fi
