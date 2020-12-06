@@ -1,2 +1,5 @@
 #!/bin/bash
-echo sup bruhh
+
+# Install Homebrew
+echo Installing Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
