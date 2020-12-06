@@ -2,9 +2,9 @@
 
 Install
 
-`curl https://canscaw28.github.io/install.sh | bash`
+`/bin/bash -c "$(curl -fsSL https://canscaw28.github.io/install.sh)"`
 
 
 Uninstall
 
-`curl https://canscaw28.github.io/uninstall.sh | bash`
+`/bin/bash -c "$(curl -fsSL https://canscaw28.github.io/uninstall.sh)"`
